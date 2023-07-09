@@ -1,0 +1,44 @@
+.card-new{
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.note-row {
+    position: relative;
+    padding-top: 2rem; /* Add some top padding to accommodate the title and date */
+  }
+  .note-title {
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+    font-weight: bold;
+  }
+  .note-title a{
+    color: #615e5edb;
+    text-decoration: underline;
+    
+  }
+  .note-date {
+    position: absolute;
+    bottom: 0.5rem;
+    right: 1rem;
+    font-size: 0.8rem;
+    color: #999;
+  }
+  .close-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.5rem;
+    border: none;
+    background-color: transparent;
+    color: #000;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+  }
+  .close-icon:hover {
+    color: #ff0000;
+  }
