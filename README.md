@@ -7,5 +7,5 @@
  it's explain difference between both and how write both
  2-https://dev.to/mega6382/mysql-vs-mysqli-vs-pdo-performance-benchmark-difference-and-security-comparison-565o
  it' spoke about
- MySQL vs MySQLi vs PDO Performance Benchmark, Difference and Security Comparison 
+ MySQL vs MySQLi vs PDO Performance Benchmark, Difference and Security Comparison.
  
